@@ -1,0 +1,43 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2022": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "no-shadow": "off",
+    "no-void": "off",
+    "no-restricted-syntax": "off",
+    "no-use-before-define": "off",
+    "no-unused-expressions": "off",
+    "no-nested-ternary": "off",
+    "prefer-arrow-callback": "off",
+    "prefer-destructuring": "off",
+    "consistent-return": "off",
+    "default-case": "off",
+    "vars-on-top": "off",
+    "lines-between-class-members": "off",
+    "react/require-default-props": "off",
+    "react/no-unstable-nested-components": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/interactive-supports-focus": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off"
+  }
+}
